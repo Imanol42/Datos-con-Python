@@ -46,7 +46,7 @@ merged_df = merged_df.dropna()
 print(merged_df)
 
 
-#comvertir de un dato a otro
+#convertir de un dato a otro
 print('------------------------') 
 tabla_pivot['nota'] = tabla_pivot['nota'].round().astype(int)
 print(tabla_pivot)
